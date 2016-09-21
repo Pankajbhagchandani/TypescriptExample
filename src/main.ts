@@ -23,6 +23,6 @@ let showHello = (divName: string, name: string) => {
     elt.innerText = "" + genericGreetType2.greet();
 
     // using union and types
-    
+    elt.innerText = ""+ hello(['One','Two']);
 };
 showHello("greeting", "Typescript");

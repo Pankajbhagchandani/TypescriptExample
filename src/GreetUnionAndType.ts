@@ -8,7 +8,7 @@ let hello = (name: NameOrNameArray) => {
     {
         return "Hello"+name;
     }else {
-        return "Hello"+ name.join(" ");
+        return "Hello "+ name.join(" ");
     }
 };
 export {hello as default};
